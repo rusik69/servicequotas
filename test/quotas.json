@@ -1,0 +1,27 @@
+
+{
+    "Quotas": [
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:12456789012:vpc/L-5F53652F",
+            "QuotaCode": "L-5F53652F",
+            "QuotaName": "Elastic IP address quota per NAT gateway",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:123456789012:vpc/L-589F43AA",
+            "QuotaCode": "L-589F43AA",
+            "QuotaName": "Route tables per VPC",
+            "Value": 200.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false
+        },
+    ]
+}
